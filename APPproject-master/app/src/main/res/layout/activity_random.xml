@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 선택장애를 위한 공간"
+            android:textSize="25dp"
+            android:textColor="#FFB300">
+
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/today_eat1"
+        android:maxWidth="150dp"
+        android:maxHeight="300dp"
+        android:adjustViewBounds="true">
+
+
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="374dp">
+
+        <TextView
+            android:id="@+id/hungry"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="MENU"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/stew_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_above="@id/hungry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFEFD5"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text=" 찌개 "
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/rice_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/hungry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFEFD5"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text=" 밥 "
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/meat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@id/rice_button"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/rice_button"
+            android:background="#FFFFEFD5"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="  고기  "
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/delivery_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@id/rice_button"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/rice_button"
+            android:background="#FFFFEFD5"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="배달"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/noodle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@id/hungry"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/hungry"
+            android:background="#FFFFEFD5"
+            android:onClick="onClick"
+            android:text="국수"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/school_food_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@id/stew_button"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/stew_button"
+            android:background="#FFFFEFD5"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="분식"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/seafood_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@id/stew_button"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/stew_button"
+            android:background="#FFFFEFD5"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text=" 해물 "
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/pasta_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@id/hungry"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/hungry"
+            android:background="#FFFFEFD5"
+            android:onClick="onClick"
+            android:text="파스타"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

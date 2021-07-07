@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 타이틀 바 없애기 -->
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Status Bar 배경색-->
+        <item name="android:statusBarColor">#ffffff</item>
+        <!--Status Bar 글자색깔-->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="CustomRatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#FFBE9D</item>
+        <item name="colorControlActivated">#FA5B0A</item>
+    </style>
+</resources>

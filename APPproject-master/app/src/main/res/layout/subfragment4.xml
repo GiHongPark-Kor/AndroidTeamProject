@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp"
+                android:text="데이트코스 추천 BEST 4"
+                android:textColor="#FFB300"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <ImageButton
+                android:id="@+id/ib_datecourse1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_north"></ImageButton>
+
+
+            <ImageButton
+                android:id="@+id/ib_datecourse2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_side"></ImageButton>
+
+
+            <ImageButton
+                android:id="@+id/ib_datecourse3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_east"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib_datecourse4_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_west"></ImageButton>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

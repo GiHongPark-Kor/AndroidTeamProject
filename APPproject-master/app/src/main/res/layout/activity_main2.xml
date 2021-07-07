@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF6F6"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFF6F6"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Custom Bar"
+                android:textColor="#FF80AB"
+                android:textSize="15dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp"
+                android:text="카테고리"
+                android:textColor="#FFB300"
+                android:textStyle="bold">
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:background="#FFF6F6"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FFF6F6">
+                    <ImageButton
+                        android:id="@+id/IB1"
+                        android:background="#FFF6F6"
+                        android:maxHeight="40dp"
+                        android:maxWidth="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/hamburger"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="30dp"
+                        android:scaleType="fitCenter">
+                    </ImageButton>
+
+                    <ImageButton
+                        android:id="@+id/IB2"
+                        android:background="#FFF6F6"
+                        android:maxHeight="40dp"
+                        android:maxWidth="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/coffee"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="30dp"
+                        android:scaleType="fitCenter">
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/IB3"
+                        android:background="#FFF6F6"
+                        android:maxHeight="40dp"
+                        android:maxWidth="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/camera"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="30dp"
+                        android:scaleType="fitCenter">
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/IB4"
+                        android:background="#FFF6F6"
+                        android:maxHeight="40dp"
+                        android:maxWidth="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/loading_couple3"
+                        android:adjustViewBounds="true"
+                        android:layout_marginLeft="30dp"
+                        android:scaleType="fitCenter">
+                    </ImageButton>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp"
+                android:text="이번 주 Best 5 맛집"
+                android:textColor="#FFB300"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bbb"></ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ccc"></ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ddd"></ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/eee"></ImageView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp"
+                android:text="이번 계절 Best 5 포토존"
+                android:textColor="#FFB300"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pzone1"></ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pzone2"></ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pzone3"></ImageView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pzone4"></ImageView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/TV3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp"
+                android:text="로그인 정보"
+                android:textColor="#FFB300"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ET1"
+                android:hint="로그인 정보 없음"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp">
+
+            </EditText>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

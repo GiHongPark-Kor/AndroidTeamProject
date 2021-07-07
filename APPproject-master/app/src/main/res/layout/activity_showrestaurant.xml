@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 식당명"
+            android:textSize="25dp"
+            android:textColor="#003458"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ddd"
+        android:maxHeight="300dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="30dp">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="식당명"
+        android:textSize="15dp"
+        android:textColor="#003458"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:numStars="5"
+        android:stepSize="0.5"
+        style="?android:attr/ratingBarStyleSmall"
+        android:theme="@style/CustomRatingBar"
+        />
+    <TextView
+        android:id="@+id/tv_address"
+        android:text="주소"
+        android:textSize="15dp"
+        android:textColor="#003458"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:text="전화번호"
+        android:textSize="15dp"
+        android:textColor="#003458"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <fragment
+        android:id="@+id/map"
+        android:layout_marginTop="15dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="내 위치" />
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

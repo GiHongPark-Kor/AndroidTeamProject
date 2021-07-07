@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="KNU EVERYTHING"
+                android:textColor="#FF0000"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/main_people2">
+
+            </ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/IB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="#ffffff"
+                    android:maxWidth="80dp"
+                    android:maxHeight="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/menu_restaurant"></ImageButton>
+
+
+                <ImageButton
+                    android:id="@+id/IB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:adjustViewBounds="true"
+                    android:background="#ffffff"
+                    android:maxWidth="80dp"
+                    android:maxHeight="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/menu_cafe"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/IB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:adjustViewBounds="true"
+                    android:background="#ffffff"
+                    android:maxWidth="80dp"
+                    android:maxHeight="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/menu_play"></ImageButton>
+
+
+                <ImageButton
+                    android:id="@+id/IB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="3dp"
+                    android:adjustViewBounds="true"
+                    android:background="#ffffff"
+                    android:maxWidth="90dp"
+                    android:maxHeight="90dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/menu_datecourse"></ImageButton>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/IB_randomFood"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:background="#ffEE11"
+                android:maxWidth="200dp"
+                android:maxHeight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/what">
+            </ImageButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="15dp"
+                android:text="데이트코스 추천 BEST 4"
+                android:textColor="#FFB300"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <ImageButton
+                android:id="@+id/ib_datecourse1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_north"></ImageButton>
+
+
+            <ImageButton
+                android:id="@+id/ib_datecourse2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_side"></ImageButton>
+
+
+            <ImageButton
+                android:id="@+id/ib_datecourse3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_east"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/ib_datecourse4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/main_west"></ImageButton>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

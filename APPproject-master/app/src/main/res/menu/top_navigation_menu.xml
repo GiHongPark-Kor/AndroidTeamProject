@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/restaurant"
+        android:icon="@drawable/ic_menu_restaurant2"
+        android:enabled="true"
+        android:title="음식점" />
+    <item
+        android:id="@+id/cafe"
+        android:icon="@drawable/ic_menu_cafe3"
+        android:enabled="true"
+        android:checked="true"
+        android:title="카페" />
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/ic_menu_play2"
+        android:enabled="true"
+        android:title="놀거리" />
+    <item
+        android:id="@+id/datacourse"
+        android:icon="@drawable/ic_menu_datecourse2"
+        android:enabled="true"
+        android:title="데이트 코스" />
+</menu>
